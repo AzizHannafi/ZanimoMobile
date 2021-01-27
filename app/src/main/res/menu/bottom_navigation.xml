@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btn_menu"
+        android:icon="@drawable/menu"
+        android:title="Menu" />
+    <item
+        android:id="@+id/btn_lost"
+        android:icon="@drawable/lost"
+        android:title="Perdue" />
+    <item
+        android:id="@+id/btn_found"
+        android:icon="@drawable/found"
+        android:title="Trouver" />
+    <item
+        android:id="@+id/btn_adopte"
+        android:icon="@drawable/adopte"
+        android:title="Adopter" />
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Controller.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logozanimo"
+        android:layout_width="358dp"
+        android:layout_height="86dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/logozanimomini" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Nom "
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="Prénom"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="E-Mail"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/numtel"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="N° Teléphone"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/motdepasse"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="Mot de Passe"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/Ajouter"
+        android:layout_width="194dp"
+        android:layout_height="46dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/submit"
+        android:text="Créer mon Compte"
+        app:backgroundTint="#aab7b8" />
+
+</LinearLayout>

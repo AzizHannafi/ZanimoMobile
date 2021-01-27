@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context=".Controller.AddPostFragment">
+
+    <TextView
+        android:id="@+id/AjouterAnnonceText"
+        android:layout_width="283dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ajouter Une Annonce "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#AAB7B8"
+        android:textSize="19dp" />
+
+
+    <EditText
+        android:id="@+id/PostDescription"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Description"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/DateExpiration"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Date d'Expiration"
+        android:inputType="date"
+        android:visibility="gone"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/GenreAnimale"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Genre Animale"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TypeAnimale"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Type Animale"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TypePost"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Type de Post "
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/AnimalImage"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Image "
+        android:visibility="gone"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/PostDate"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputtext"
+        android:hint="Date"
+        android:inputType="date"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_AddPost"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/submit"
+        android:text="Ajouter Votre Annonce"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:backgroundTint="#AAB7B8" />
+
+    <!--
+    <RadioGroup
+        android:layout_width="181dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/femelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femelle" />
+    </RadioGroup>
+-->
+</LinearLayout>

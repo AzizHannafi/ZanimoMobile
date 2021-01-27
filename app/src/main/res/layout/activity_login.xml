@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Controller.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logozanimo"
+        android:layout_width="358dp"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/logozanimomini" />
+
+    <EditText
+        android:id="@+id/mailAuth"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="Votre E-Mail"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/motdepasseAuth"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputtext"
+        android:hint="Votre Mot De Passe "
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/seConnecter"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/submit"
+        android:text="Se Connecter"
+        android:textColor="@color/white"
+        app:backgroundTint="#AAB7B8 " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Vous N'avez pas de Compte !? "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/submit"
+        android:text="S'inscrivez"
+        android:textColor="#AAB7B8 "
+        app:backgroundTint="#FFFFFF" />
+
+</LinearLayout>
